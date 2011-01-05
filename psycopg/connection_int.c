@@ -246,7 +246,7 @@ conn_get_protocol_version(PGconn *pgconn)
 int
 conn_get_server_version(PGconn *pgconn)
 {
-    return (int)PQserverVersion(pgconn);
+    return 0;
 }
 
 
